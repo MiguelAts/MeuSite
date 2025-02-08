@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #F5F7FA;
+}
+
+.cabecalho{
+    background-color: #34495E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.botao-cabecalho{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #2C3E50;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao-cabecalho:hover{
+    background-color: #357ABD;
+    color: #3AC9A8;
+    transform: scale(1.05);
+}
